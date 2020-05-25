@@ -1,0 +1,251 @@
+
+
+/*CSS 05.04.2020*/
+/*About Page*/
+.about__us {
+    background: #5bac35;
+    padding: 7% 0;
+    text-align: center;
+    color: #fff;
+}
+.about__us h2 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.about__us h5 {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    /*font-weight: 600;*/
+    margin-bottom: 0;
+}
+.about_content {
+    width: 60%;
+    margin: 0 auto;
+}
+.about_content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_page ul.nav-tabs li a {
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.about_page ul.nav-tabs li a.active {
+    color: #5bac35;
+    border: none;
+    border-bottom: 4px solid;
+}
+.about_page ul.nav-tabs li a.active:hover {
+    border-bottom: 4px solid #5bac35;
+}
+.about_page ul.nav-tabs li a:hover {
+    border-color: transparent;
+}
+.about_page .about_content .tab-content {
+    margin-top: 20px;
+}
+.about_page .about_content .tab-content p {
+    color: #555;
+    font-size: 15px;
+    font-family: 'Raleway';
+    line-height: 26px;
+}
+.about_page .about_content .tab-content h4 {
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #555;
+    margin-bottom: 5px;
+}
+/*End About Page*/
+
+/*Legal Page*/
+.legal_page .legal_sidebar ul.nav-tabs {
+    border-bottom: 0;
+}
+.legal_page .legal_sidebar ul.nav-tabs li {
+    display: block;
+    width: 100%;
+}
+.legal_page .legal_sidebar ul.nav-tabs li a {
+    /*text-transform: uppercase;*/
+    color: #222;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 15px;
+    border-left: 4px solid transparent;
+}
+.legal_page .legal_sidebar ul.nav-tabs li a:hover {
+    border-color: transparent;
+    background: #fff;
+}
+.legal_page .legal_sidebar ul.nav-tabs li a.active {
+    color: #5bac35;
+    border: none;
+    border-left: 4px solid;
+    border-radius: 0;
+}
+.legal_page .tab-content {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #eee;
+    box-shadow: -5px 0px 15px #00000015;
+}
+.legal_page .tab-content h4 {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    margin-bottom: 10px;
+}
+.legal_page .tab-content p {
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+    line-height: 26px;
+}
+/*End Legal Page*/
+
+/*FAQ Page*/
+.faq_page .ch_title {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.faq_page .ch_title h2 {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 8px;
+}
+.faq_list h3 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.faq_group {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.faq_list .faq_group h4.faq_title {
+    padding-left: 60px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #3d4c58;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.faq_list .faq_group h4.faq_title:hover {
+    color: #2f95d4;
+}
+.faq_list .faq_group h4.faq_title i {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 36px;
+    transform: translateY(-50%);
+    top: 50%;
+    color: #2f95d4;
+    border-radius: 50%;
+    border: 2px solid #2f95d4
+}
+.faq_list .faq_group p.faq_desc {
+    padding-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    font-size: 15px;
+    display: none;
+}
+/*End FAQ Page*/
+
+/*404 Error*/
+.error_text {
+    text-align: center;
+}
+.error_page .error_text h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.error_page .error_text p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #646464;
+}
+.error_page .error_text span {
+    display: block;
+    color: #646464;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.return_home {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .about_content {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_content {
+        width: 100%;
+    }
+    .about__us {
+        padding: 10% 0;
+    }
+    .about__us h2 {
+        font-size: 40px;
+    }
+    .about__us h5 {
+        font-size: 16px;
+    }
+    .legal_sidebar {
+        margin-bottom: 25px;
+    }
+    .error_page .error_text h1 {
+        font-size: 100px;
+    }
+    .error_page .error_text p {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .about__us h2 {
+        font-size: 34px;
+    }
+    .about__us h5 {
+        font-size: 15px;
+    }    
+
+    .faq_page .ch_title h2 {
+        font-size: 25px;
+    }
+    .faq_list h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .faq_list .faq_group h4.faq_title {
+        font-size: 15px;
+    }
+}
